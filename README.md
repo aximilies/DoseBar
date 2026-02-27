@@ -8,13 +8,13 @@ A lightweight macOS menu bar app that reminds you to take your medications on ti
 
 ## Features
 
-· **Menu bar app** that's always running, never in the way
-· **Smart notifications** that escalate if you forget
-· **One click "Mark as Taken"** directly from notifications
-· **Snooze** reminders by 15 minutes
-· **Daily reset** at midnight
-· **Launch at login**
-· **Completely private**, no data leaves your Mac
+- **Menu bar app** that's always running, never in the way
+-  **Smart notifications** that escalate if you forget
+-  **One click "Mark as Taken"** directly from notifications
+-  **Snooze** reminders by 15 minutes
+-  **Daily reset** at midnight
+-  **Launch at login**
+-  **Completely private**, no data leaves your Mac
 
 ## How It Works
 
