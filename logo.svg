@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Shadow under bottle -->
+  <ellipse cx="100" cy="175" rx="40" ry="6" fill="#d0d0d0" opacity="0.5"/>
+
+  <!-- Bottle body (white fill with dark outline) -->
+  <rect x="60" y="60" width="80" height="110" rx="14" ry="14" fill="white" stroke="#2d4a4e" stroke-width="4"/>
+
+  <!-- Teal liquid inside bottle (clipped to bottle shape) -->
+  <defs>
+    <clipPath id="bottleClip">
+      <rect x="62" y="62" width="76" height="106" rx="12" ry="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#bottleClip)">
+    <!-- Liquid fill with smooth wave -->
+    <path d="M62 120 C75 120, 80 105, 100 105 C120 105, 125 120, 138 120 L138 168 L62 168 Z" fill="#5fbdaf"/>
+
+    <!-- Bubbles - only on the liquid -->
+    <ellipse cx="80" cy="138" rx="3.5" ry="4" fill="white" opacity="0.35"/>
+    <ellipse cx="108" cy="148" rx="3" ry="3.5" fill="white" opacity="0.3"/>
+    <ellipse cx="92" cy="155" rx="2.5" ry="2.5" fill="white" opacity="0.25"/>
+  </g>
+
+  <!-- White highlight/reflection on bottle -->
+  <rect x="72" y="75" width="12" height="30" rx="4" ry="4" fill="white" opacity="0.7"/>
+
+  <!-- Bottle cap (separate, floating above with a gap) -->
+  <rect x="82" y="38" width="36" height="16" rx="6" ry="6" fill="#5fbdaf" stroke="#2d4a4e" stroke-width="3.5"/>
+</svg>
